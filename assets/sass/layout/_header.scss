@@ -1,0 +1,12 @@
+.header {
+   
+  &__img {
+      width: 100%;
+    
+  }
+  @include screen-l{
+       width: 800px;
+     margin: auto;
+     padding: 50px;
+  }
+}

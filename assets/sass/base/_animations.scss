@@ -1,0 +1,23 @@
+.gear {
+  animation: spin 1s linear infinite;
+  -webkit-animation: spin 1s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.left-right {
+  transform: translate(28%);
+  -webkit-transform: translate(28%);
+  -moz-transform: translate(28%);
+  -ms-transform: translate(28%);
+  -o-transform: translate(28%);
+  animation: moveStar 2s infinite;
+}
+
+.animation {
+  padding: 20px 0;
+  width: 300px;
+  margin: auto;
+  @include screen-l {
+    padding-bottom: 90px;
+  }
+}

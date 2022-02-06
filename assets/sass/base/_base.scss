@@ -1,0 +1,17 @@
+@keyframes moveStar {
+    50% {
+      transform: unset;
+      -webkit-transform: unset;
+      -moz-transform: unset;
+      -ms-transform: unset;
+      -o-transform: unset;
+    }
+  }
+  
+  @keyframes spin{
+    100% {-webkit-transform: rotate(360deg);}
+  }
+  @keyframes spin{
+    100% {-webkit-transform: rotate(360deg);}
+  }
+  
